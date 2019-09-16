@@ -115,6 +115,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="SourceCode\Frame\Frame.cpp" />
+    <ClCompile Include="SourceCode\Game\CharacterBase\CharacterBase.cpp" />
+    <ClCompile Include="SourceCode\Game\Map\Map.cpp" />
+    <ClCompile Include="SourceCode\Game\Player\Player.cpp" />
+    <ClCompile Include="SourceCode\Image\Image.cpp" />
+    <ClCompile Include="SourceCode\Main\Main.cpp" />
+    <ClCompile Include="SourceCode\Scene\Scenes\GameScene\GameScene.cpp" />
+    <ClCompile Include="SourceCode\Scene\SceneBase\SceneBase.cpp" />
+    <ClCompile Include="SourceCode\Scene\SceneManager\SceneManager.cpp" />
+    <ClCompile Include="SourceCode\Scene\Scenes\TItleScene\TitleScene.cpp" />
+    <ClCompile Include="SourceCode\SingletonBase\SingletonBase.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SourceCode\Frame\Frame.h" />
+    <ClInclude Include="SourceCode\Game\CharacterBase\CharacterBase.h" />
+    <ClInclude Include="SourceCode\Game\Map\Map.h" />
+    <ClInclude Include="SourceCode\Game\Player\Player.h" />
+    <ClInclude Include="SourceCode\Global.h" />
+    <ClInclude Include="SourceCode\Image\Image.h" />
+    <ClInclude Include="SourceCode\Main\Main.h" />
+    <ClInclude Include="SourceCode\Scene\Scenes\GameScene\GameScene.h" />
+    <ClInclude Include="SourceCode\Scene\SceneBase\SceneBase.h" />
+    <ClInclude Include="SourceCode\Scene\SceneManager\SceneManager.h" />
+    <ClInclude Include="SourceCode\Scene\Scenes\TItleScene\TitleScene.h" />
+    <ClInclude Include="SourceCode\SingletonBase\SingletonBase.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
