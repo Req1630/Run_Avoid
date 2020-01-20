@@ -160,7 +160,7 @@ LRESULT CALLBACK WindowProc(
 		if( !gameWnd.isWndClose ) break;
 	case WM_CLOSE:
 		DWORD result;
-
+		gameWnd.isWndClose = TRUE;
 		while(1){
             //スレッドが終わったかチェック
             GetExitCodeThread(th,&result);
